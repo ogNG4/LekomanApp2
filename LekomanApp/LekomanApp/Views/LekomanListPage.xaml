@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LekomanApp.Views.LekomanListPage"
+             Title="Dodaj swoje leki!"
+             BackgroundColor="#9ac3e6">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="OnItemAdded" Text="+">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform x:TypeArguments="ImageSource">
+                    <On Platform="Android,UWP" Value="plus.png" />
+
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ListView
+        x:Name="listView"
+        Margin="5"
+        ItemSelected="OnListItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+
+
+
+
+
+
+                    <StackLayout
+                        Margin="20,0,0,0"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal">
+
+
+                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
+                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Lek}" />
+
+                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Dawka: " />
+                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
+
+                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Date: " />
+                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
+
+                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Time: " />
+                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Godzina}" />
+
+
+
+                        <Image
+                            HorizontalOptions="End"
+                            
+                            IsVisible="{Binding Zrobione}"
+                            Source="check.png" 
+                            WidthRequest="20"
+                            />
+
+                    </StackLayout>
+                </ViewCell>
+
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+    </ListView>
+
+
+
+</ContentPage>

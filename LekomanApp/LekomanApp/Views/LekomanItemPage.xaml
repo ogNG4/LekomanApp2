@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="LekomanApp.Views.LekomanItemPage"
+             Title="{Binding Lek}"
+             BackgroundColor="#9ac3e6">
+    <ContentPage.Content>
+        <StackLayout
+            Margin="20"
+            Spacing="10"
+            VerticalOptions="StartAndExpand">
+
+            <Label Text="Lek" />
+
+            <Entry Text="{Binding Lek}" />
+
+            <Label Text="Dawka" />
+            <Entry Text="{Binding Dawka}" />
+
+            <Label Text="Data" />
+            <DatePicker Date="{Binding Data}" 
+                        MinimumDate="{x:Static sys:DateTime.Now}"/>
+
+            <Label Text="Godzina" />
+            <TimePicker Time="{Binding Godzina}" />
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label
+                    Margin="0,10"
+                    HorizontalOptions="StartAndExpand"
+                    Text="Zrobione" />
+                <Switch HorizontalOptions="EndAndExpand" IsToggled="{Binding Zrobione}" />
+            </StackLayout>
+
+            <Button Clicked="OnSaveClicked" CornerRadius="50" TextColor="white" BackgroundColor="#093861" Text="Zapisz" />
+
+            <Button Clicked="OnDeleteClicked" CornerRadius="50" TextColor="white" BackgroundColor="#093861"  Text="Usuń" />
+
+            <Button Clicked="OnCancelClicked" CornerRadius="50"  TextColor="white" BackgroundColor="#093861" Text="Wyjdź" />
+
+            <Button  Clicked="Exit_Clicked" CornerRadius="50"  TextColor="white" BackgroundColor="#cf4b42" Text="Wyloguj"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 
