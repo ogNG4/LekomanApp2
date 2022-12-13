@@ -22,6 +22,45 @@ namespace LekomanApp.Views
 
         void Button_Clicked(object sender, EventArgs e)
         {
+
+            if (!EntryUserEmail.Text.Contains("@"))
+            {
+                // If not, display an error message
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await this.DisplayAlert("Błąd", "Wprowadź poprawny adres email.", "OK");
+                });
+
+                // Return early to avoid inserting the user into the database
+                return;
+            }
+
+            if (string.IsNullOrEmpty(EntryUserPassword.Text))
+            {
+                // If not, display an error message
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await this.DisplayAlert("Error", "Please enter a password.", "OK");
+                });
+
+                // Return early to avoid inserting the user into the database
+                return;
+            }
+
+            // Check if the username has been entered
+            if (string.IsNullOrEmpty(EntryUserName.Text))
+            {
+                // If not, display an error message
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await this.DisplayAlert("Error", "Please enter a username.", "OK");
+                });
+
+                // Return early to avoid inserting the user into the database
+                return;
+            }
+
+
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "UserDatabase.db");
             var db = new SQLiteConnection(dbpath);
             db.CreateTable<RegUserTable>();

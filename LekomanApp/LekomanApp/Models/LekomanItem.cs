@@ -17,7 +17,8 @@ namespace LekomanApp.Models
 
         public TimeSpan Godzina { get; set; }
 
-
+        
+        public bool Zrobione { get; set; }
 
 
 

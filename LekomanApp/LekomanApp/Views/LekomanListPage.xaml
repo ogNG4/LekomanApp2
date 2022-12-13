@@ -9,11 +9,13 @@
             <ToolbarItem.IconImageSource>
                 <OnPlatform x:TypeArguments="ImageSource">
                     <On Platform="Android,UWP" Value="plus.png" />
+            
 
                 </OnPlatform>
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
+   
 
     <ListView
         x:Name="listView"
@@ -23,15 +25,12 @@
             <DataTemplate>
                 <ViewCell>
 
-
-
-
-
-
                     <StackLayout
-                        Margin="20,0,0,0"
+                        Margin="10,0,0,0"
                         HorizontalOptions="FillAndExpand"
-                        Orientation="Horizontal">
+                        Orientation="Horizontal"
+                        VerticalOptions="CenterAndExpand"
+                        >
 
 
                         <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
@@ -39,6 +38,8 @@
 
                         <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Dawka: " />
                         <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
+
+                            
 
                         <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Date: " />
                         <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
@@ -52,7 +53,7 @@
                             HorizontalOptions="End"
                             
                             IsVisible="{Binding Zrobione}"
-                            Source="check.png" 
+                            Source="check1.png" 
                             WidthRequest="20"
                             />
 
