@@ -60,6 +60,15 @@ namespace LekomanApp.Views
                 return;
             }
 
+            //...
+
+           
+
+           
+            // ...
+
+
+
 
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "UserDatabase.db");
             var db = new SQLiteConnection(dbpath);
@@ -72,6 +81,17 @@ namespace LekomanApp.Views
                 Email = EntryUserEmail.Text
 
             };
+
+            // Sprawdź, czy istnieje już użytkownik o podanym adresie email lub nazwie użytkownika
+            var existingUser = db.Table<RegUserTable>().Where(u => u.Email == EntryUserEmail.Text || u.UserName == EntryUserName.Text).FirstOrDefault();
+            if (existingUser != null)
+            {
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await this.DisplayAlert("Błąd", "Użytkownik o podanym adresie email lub nazwie użytkownika już istnieje.", "OK");
+                });
+                return;
+            }
 
 
 

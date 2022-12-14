@@ -3,8 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LekomanApp.Views.LekomanListPage"
              Title="Dodaj swoje leki!"
-             BackgroundColor="#9ac3e6">
+             BackgroundColor="#91a6bf"
+             >
     <ContentPage.ToolbarItems>
+
+
+
         <ToolbarItem Clicked="OnItemAdded" Text="+">
             
             <ToolbarItem.IconImageSource>
@@ -22,19 +26,22 @@
     <ListView
         x:Name="listView"
         Margin="5"
-        ItemSelected="OnListItemSelected">
+        ItemSelected="OnListItemSelected"
+        HasUnevenRows="True">
+        
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
 
                     
-                        <StackLayout>
+                    <StackLayout>
                             <StackLayout
-      Margin="10,0,0,0"
-      HorizontalOptions="FillAndExpand"
-      Orientation="Horizontal"
-      VerticalOptions="CenterAndExpand"
-    >
+                                
+                                
+                                 HorizontalOptions="FillAndExpand"
+                                   Orientation="Horizontal"
+                                 VerticalOptions="CenterAndExpand">
+                                                     
                                 <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
                                 <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Lek}" />
 
@@ -42,28 +49,41 @@
                                 <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
                             </StackLayout>
 
-                            <StackLayout
-      Margin="10,0,0,0"
-      HorizontalOptions="FillAndExpand"
-      Orientation="Horizontal"
-      VerticalOptions="CenterAndExpand"
-    >
-                                <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Data: " />
-                                <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
 
 
 
+                        <StackLayout
+                         
+                         
+                         HorizontalOptions="FillAndExpand"
+                         Orientation="Horizontal"
+                         VerticalOptions="StartAndExpand"
+                         Padding="0,0,0,10"
+                         
+                          >
+                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Data: " />
+                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
+
+                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Godzina: " />
+                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Godzina}" />
 
 
-                            </StackLayout>
-
-
-
-
-
-
+                            <Image
+                            HorizontalOptions="End"
+                            
+                            IsVisible="{Binding Zrobione}"
+                            Source="check1.png" 
+                            WidthRequest="20"
+                            />
+                            
                         </StackLayout>
+                        
+                    </StackLayout>
+
                     
+
+
+
                 </ViewCell>
 
             </DataTemplate>
@@ -71,6 +91,6 @@
         </ListView.ItemTemplate>
     </ListView>
 
-    
+   
 
 </ContentPage>
