@@ -45,5 +45,11 @@ namespace LekomanApp.Views
         }
 
 
+        async void Exit_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
+
+
     }
 }

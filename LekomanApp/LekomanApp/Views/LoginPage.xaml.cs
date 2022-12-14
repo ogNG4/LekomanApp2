@@ -1,5 +1,4 @@
-﻿using LekomanApp.Database;
-using SQLite;
+﻿using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,12 +7,17 @@ using System.IO;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using LekomanApp.Models;
+using LekomanApp.Data;
 
 namespace LekomanApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+
+       
+
         public LoginPage()
         {
             InitializeComponent();
@@ -29,6 +33,8 @@ namespace LekomanApp.Views
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "UserDatabase.db");
             var db = new SQLiteConnection(dbpath);
             var myquery = db.Table<RegUserTable>().Where(u => u.UserName.Equals(EntryUser.Text) && u.Password.Equals(EntryPassword.Text)).FirstOrDefault();
+
+
 
             if (myquery != null)
             {

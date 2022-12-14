@@ -1,5 +1,8 @@
 ﻿using SQLite;
+using System.Linq;
 using System;
+using System.Collections.Generic;
+using System.Text;
 
 
 namespace LekomanApp.Models
@@ -8,6 +11,9 @@ namespace LekomanApp.Models
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
+
+        public Guid UserId { get; set; }
+
 
         public string Lek { get; set; }
 
@@ -21,9 +27,9 @@ namespace LekomanApp.Models
         public bool Zrobione { get; set; }
 
 
-
-
+       
 
 
     }
+
 }

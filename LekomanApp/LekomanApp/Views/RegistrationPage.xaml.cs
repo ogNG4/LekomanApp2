@@ -1,4 +1,4 @@
-﻿using LekomanApp.Database;
+﻿using LekomanApp.Models;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -25,38 +25,38 @@ namespace LekomanApp.Views
 
             if (!EntryUserEmail.Text.Contains("@"))
             {
-                // If not, display an error message
+                
                 Device.BeginInvokeOnMainThread(async () =>
                 {
                     await this.DisplayAlert("Błąd", "Wprowadź poprawny adres email.", "OK");
                 });
 
-                // Return early to avoid inserting the user into the database
+                
                 return;
             }
 
             if (string.IsNullOrEmpty(EntryUserPassword.Text))
             {
-                // If not, display an error message
+                
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await this.DisplayAlert("Error", "Please enter a password.", "OK");
+                    await this.DisplayAlert("Błąd", "Wprowadż hasło.", "OK");
                 });
 
-                // Return early to avoid inserting the user into the database
+                
                 return;
             }
 
-            // Check if the username has been entered
+            
             if (string.IsNullOrEmpty(EntryUserName.Text))
             {
-                // If not, display an error message
+                
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await this.DisplayAlert("Error", "Please enter a username.", "OK");
+                    await this.DisplayAlert("Błąd", "Wprowadź nick.", "OK");
                 });
 
-                // Return early to avoid inserting the user into the database
+                
                 return;
             }
 

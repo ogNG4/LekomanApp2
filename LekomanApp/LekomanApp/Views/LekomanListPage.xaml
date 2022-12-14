@@ -6,7 +6,9 @@
              BackgroundColor="#9ac3e6">
     <ContentPage.ToolbarItems>
         <ToolbarItem Clicked="OnItemAdded" Text="+">
+            
             <ToolbarItem.IconImageSource>
+                
                 <OnPlatform x:TypeArguments="ImageSource">
                     <On Platform="Android,UWP" Value="plus.png" />
             
@@ -25,39 +27,43 @@
             <DataTemplate>
                 <ViewCell>
 
-                    <StackLayout
-                        Margin="10,0,0,0"
-                        HorizontalOptions="FillAndExpand"
-                        Orientation="Horizontal"
-                        VerticalOptions="CenterAndExpand"
-                        >
+                    
+                        <StackLayout>
+                            <StackLayout
+      Margin="10,0,0,0"
+      HorizontalOptions="FillAndExpand"
+      Orientation="Horizontal"
+      VerticalOptions="CenterAndExpand"
+    >
+                                <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
+                                <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Lek}" />
+
+                                <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Dawka: " />
+                                <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
+                            </StackLayout>
+
+                            <StackLayout
+      Margin="10,0,0,0"
+      HorizontalOptions="FillAndExpand"
+      Orientation="Horizontal"
+      VerticalOptions="CenterAndExpand"
+    >
+                                <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Data: " />
+                                <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
 
 
-                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
-                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Lek}" />
-
-                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Dawka: " />
-                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
-
-                            
-
-                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Date: " />
-                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
-
-                        <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Time: " />
-                        <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Godzina}" />
 
 
 
-                        <Image
-                            HorizontalOptions="End"
-                            
-                            IsVisible="{Binding Zrobione}"
-                            Source="check1.png" 
-                            WidthRequest="20"
-                            />
+                            </StackLayout>
 
-                    </StackLayout>
+
+
+
+
+
+                        </StackLayout>
+                    
                 </ViewCell>
 
             </DataTemplate>
@@ -65,6 +71,6 @@
         </ListView.ItemTemplate>
     </ListView>
 
-
+    
 
 </ContentPage>

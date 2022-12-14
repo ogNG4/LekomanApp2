@@ -27,6 +27,8 @@ namespace LekomanApp.Data
                     throw;
                 }
                 return instance;
+
+
             });
 
 
@@ -34,6 +36,8 @@ namespace LekomanApp.Data
         {
             Database = new SQLiteAsyncConnection(Constants.DatabasePath, Constants.Flags);
         }
+
+     
 
         public Task<List<LekomanItem>> GetItemsAsync()
         {
@@ -44,6 +48,8 @@ namespace LekomanApp.Data
         {
             return Database.QueryAsync<LekomanItem>("SELECT * FROM [LekomanItem] WHERE [Zrobione] = 0");
         }
+
+        
 
         public Task<LekomanItem> GetItemAsync(int id)
         {
