@@ -20,7 +20,7 @@
 
             <Label Text="Data" />
             <DatePicker Date="{Binding Data}" 
-                        MinimumDate="{x:Static sys:DateTime.Now}"/>
+                        MinimumDate="2022/12/14"/>
 
             <Label Text="Godzina" />
             <TimePicker Time="{Binding Godzina}" />

@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LekomanApp.Android", "Lekom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LekomanApp.iOS", "LekomanApp\LekomanApp.iOS\LekomanApp.iOS.csproj", "{0851944D-A918-49A7-8C34-9877939A03F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LekomanApp", "LekomanApp\LekomanApp\LekomanApp.csproj", "{9DFCB3E3-6C63-4567-B0EA-490DD80D9858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LekomanApp", "LekomanApp\LekomanApp\LekomanApp.csproj", "{9DFCB3E3-6C63-4567-B0EA-490DD80D9858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA36582A-DA9C-41C5-A366-BF336343F33F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,6 +7,7 @@ using LekomanApp;
 using SQLite;
 
 
+
 namespace LekomanApp.Data
 {
     public class LekomanItemDatabase
@@ -49,7 +50,9 @@ namespace LekomanApp.Data
             return Database.QueryAsync<LekomanItem>("SELECT * FROM [LekomanItem] WHERE [Zrobione] = 0");
         }
 
-        
+
+      
+
 
         public Task<LekomanItem> GetItemAsync(int id)
         {
@@ -64,6 +67,8 @@ namespace LekomanApp.Data
             }
             else
             {
+
+              
                 return Database.InsertAsync(item);
             }
         }
@@ -72,5 +77,7 @@ namespace LekomanApp.Data
         {
             return Database.DeleteAsync(item);
         }
+
+
     }
 }

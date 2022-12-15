@@ -12,9 +12,6 @@ namespace LekomanApp.Models
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
 
-        public Guid UserId { get; set; }
-
-
         public string Lek { get; set; }
 
         public string Dawka { get; set; }
@@ -24,10 +21,18 @@ namespace LekomanApp.Models
         public TimeSpan Godzina { get; set; }
 
         
+
         public bool Zrobione { get; set; }
 
+        public Guid UserId { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
+        public string Email { get; set; }
 
-       
+        
+
+
+
 
 
     }

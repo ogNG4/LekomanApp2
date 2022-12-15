@@ -31,7 +31,7 @@
                         </Grid.RowDefinitions>
 
                         <Image Margin="0,0,30,30" WidthRequest="150" HeightRequest="120"  Source="logo.png" Grid.Row="0" ></Image>
-                        <Entry Placeholder="Imię" x:Name="EntryUser" Grid.Row="1"/>
+                        <Entry Placeholder="Nazwa" x:Name="EntryUser" Grid.Row="1"/>
                         <Entry Placeholder="Hasło" x:Name="EntryPassword" IsPassword="true" Grid.Row="2"/>
                         <Button Text="Zaloguj się." Grid.Row="3" Margin="0,20,0,0" BackgroundColor="#0e387d" TextColor="White" CornerRadius="50" Clicked="Button_Clicked_1"/>
                         <Button Text="Zarejestruj się." Grid.Row="4" Margin="0,20,0,0" CornerRadius="50" Clicked="Button_Clicked"/>

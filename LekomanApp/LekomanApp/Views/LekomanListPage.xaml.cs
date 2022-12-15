@@ -17,7 +17,7 @@ namespace LekomanApp.Views
         {
             InitializeComponent();
         }
-
+        
         protected override async void OnAppearing()
         {
             base.OnAppearing();

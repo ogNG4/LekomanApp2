@@ -72,9 +72,9 @@ namespace LekomanApp.Views
 
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "UserDatabase.db");
             var db = new SQLiteConnection(dbpath);
-            db.CreateTable<RegUserTable>();
+            db.CreateTable<LekomanItem>();
 
-            var item = new RegUserTable()
+            var item = new LekomanItem()
             {
                 UserName = EntryUserName.Text,
                 Password = EntryUserPassword.Text,
@@ -83,7 +83,7 @@ namespace LekomanApp.Views
             };
 
             // Sprawdź, czy istnieje już użytkownik o podanym adresie email lub nazwie użytkownika
-            var existingUser = db.Table<RegUserTable>().Where(u => u.Email == EntryUserEmail.Text || u.UserName == EntryUserName.Text).FirstOrDefault();
+            var existingUser = db.Table<LekomanItem>().Where(u => u.Email == EntryUserEmail.Text || u.UserName == EntryUserName.Text).FirstOrDefault();
             if (existingUser != null)
             {
                 Device.BeginInvokeOnMainThread(async () =>

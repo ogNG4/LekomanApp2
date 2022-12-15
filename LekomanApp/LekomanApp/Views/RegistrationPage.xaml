@@ -42,7 +42,7 @@
                             </StackLayout>
 
                             <StackLayout Grid.Row="2">
-                                <Entry Placeholder="Imię" FontSize="16" x:Name="EntryUserName"/>
+                                <Entry Placeholder="Nazwa" FontSize="16" x:Name="EntryUserName"/>
                             </StackLayout>
 
                             <StackLayout Grid.Row="4">

@@ -25,285 +25,6 @@ namespace LekomanApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::LocalNotifications.Resource.Animation.fragment_fast_out_extra_slow_in = global::LekomanApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::LocalNotifications.Resource.Animator.fragment_close_enter = global::LekomanApp.Droid.Resource.Animator.fragment_close_enter;
-			global::LocalNotifications.Resource.Animator.fragment_close_exit = global::LekomanApp.Droid.Resource.Animator.fragment_close_exit;
-			global::LocalNotifications.Resource.Animator.fragment_fade_enter = global::LekomanApp.Droid.Resource.Animator.fragment_fade_enter;
-			global::LocalNotifications.Resource.Animator.fragment_fade_exit = global::LekomanApp.Droid.Resource.Animator.fragment_fade_exit;
-			global::LocalNotifications.Resource.Animator.fragment_open_enter = global::LekomanApp.Droid.Resource.Animator.fragment_open_enter;
-			global::LocalNotifications.Resource.Animator.fragment_open_exit = global::LekomanApp.Droid.Resource.Animator.fragment_open_exit;
-			global::LocalNotifications.Resource.Attribute.alpha = global::LekomanApp.Droid.Resource.Attribute.alpha;
-			global::LocalNotifications.Resource.Attribute.buttonSize = global::LekomanApp.Droid.Resource.Attribute.buttonSize;
-			global::LocalNotifications.Resource.Attribute.circleCrop = global::LekomanApp.Droid.Resource.Attribute.circleCrop;
-			global::LocalNotifications.Resource.Attribute.colorScheme = global::LekomanApp.Droid.Resource.Attribute.colorScheme;
-			global::LocalNotifications.Resource.Attribute.font = global::LekomanApp.Droid.Resource.Attribute.font;
-			global::LocalNotifications.Resource.Attribute.fontProviderAuthority = global::LekomanApp.Droid.Resource.Attribute.fontProviderAuthority;
-			global::LocalNotifications.Resource.Attribute.fontProviderCerts = global::LekomanApp.Droid.Resource.Attribute.fontProviderCerts;
-			global::LocalNotifications.Resource.Attribute.fontProviderFetchStrategy = global::LekomanApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::LocalNotifications.Resource.Attribute.fontProviderFetchTimeout = global::LekomanApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::LocalNotifications.Resource.Attribute.fontProviderPackage = global::LekomanApp.Droid.Resource.Attribute.fontProviderPackage;
-			global::LocalNotifications.Resource.Attribute.fontProviderQuery = global::LekomanApp.Droid.Resource.Attribute.fontProviderQuery;
-			global::LocalNotifications.Resource.Attribute.fontProviderSystemFontFamily = global::LekomanApp.Droid.Resource.Attribute.fontProviderSystemFontFamily;
-			global::LocalNotifications.Resource.Attribute.fontStyle = global::LekomanApp.Droid.Resource.Attribute.fontStyle;
-			global::LocalNotifications.Resource.Attribute.fontVariationSettings = global::LekomanApp.Droid.Resource.Attribute.fontVariationSettings;
-			global::LocalNotifications.Resource.Attribute.fontWeight = global::LekomanApp.Droid.Resource.Attribute.fontWeight;
-			global::LocalNotifications.Resource.Attribute.imageAspectRatio = global::LekomanApp.Droid.Resource.Attribute.imageAspectRatio;
-			global::LocalNotifications.Resource.Attribute.imageAspectRatioAdjust = global::LekomanApp.Droid.Resource.Attribute.imageAspectRatioAdjust;
-			global::LocalNotifications.Resource.Attribute.nestedScrollViewStyle = global::LekomanApp.Droid.Resource.Attribute.nestedScrollViewStyle;
-			global::LocalNotifications.Resource.Attribute.queryPatterns = global::LekomanApp.Droid.Resource.Attribute.queryPatterns;
-			global::LocalNotifications.Resource.Attribute.scopeUris = global::LekomanApp.Droid.Resource.Attribute.scopeUris;
-			global::LocalNotifications.Resource.Attribute.shortcutMatchRequired = global::LekomanApp.Droid.Resource.Attribute.shortcutMatchRequired;
-			global::LocalNotifications.Resource.Attribute.ttcIndex = global::LekomanApp.Droid.Resource.Attribute.ttcIndex;
-			global::LocalNotifications.Resource.Color.androidx_core_ripple_material_light = global::LekomanApp.Droid.Resource.Color.androidx_core_ripple_material_light;
-			global::LocalNotifications.Resource.Color.androidx_core_secondary_text_default_material_light = global::LekomanApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_dark = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_dark;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_dark_default = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_dark_default;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_dark_disabled = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_dark_focused = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_dark_focused;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_dark_pressed = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_dark_pressed;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_light = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_light;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_light_default = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_light_default;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_light_disabled = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_light_disabled;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_light_focused = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_light_focused;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_text_light_pressed = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_text_light_pressed;
-			global::LocalNotifications.Resource.Color.common_google_signin_btn_tint = global::LekomanApp.Droid.Resource.Color.common_google_signin_btn_tint;
-			global::LocalNotifications.Resource.Color.notification_action_color_filter = global::LekomanApp.Droid.Resource.Color.notification_action_color_filter;
-			global::LocalNotifications.Resource.Color.notification_icon_bg_color = global::LekomanApp.Droid.Resource.Color.notification_icon_bg_color;
-			global::LocalNotifications.Resource.Dimension.compat_button_inset_horizontal_material = global::LekomanApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::LocalNotifications.Resource.Dimension.compat_button_inset_vertical_material = global::LekomanApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::LocalNotifications.Resource.Dimension.compat_button_padding_horizontal_material = global::LekomanApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::LocalNotifications.Resource.Dimension.compat_button_padding_vertical_material = global::LekomanApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::LocalNotifications.Resource.Dimension.compat_control_corner_material = global::LekomanApp.Droid.Resource.Dimension.compat_control_corner_material;
-			global::LocalNotifications.Resource.Dimension.compat_notification_large_icon_max_height = global::LekomanApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::LocalNotifications.Resource.Dimension.compat_notification_large_icon_max_width = global::LekomanApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::LocalNotifications.Resource.Dimension.notification_action_icon_size = global::LekomanApp.Droid.Resource.Dimension.notification_action_icon_size;
-			global::LocalNotifications.Resource.Dimension.notification_action_text_size = global::LekomanApp.Droid.Resource.Dimension.notification_action_text_size;
-			global::LocalNotifications.Resource.Dimension.notification_big_circle_margin = global::LekomanApp.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::LocalNotifications.Resource.Dimension.notification_content_margin_start = global::LekomanApp.Droid.Resource.Dimension.notification_content_margin_start;
-			global::LocalNotifications.Resource.Dimension.notification_large_icon_height = global::LekomanApp.Droid.Resource.Dimension.notification_large_icon_height;
-			global::LocalNotifications.Resource.Dimension.notification_large_icon_width = global::LekomanApp.Droid.Resource.Dimension.notification_large_icon_width;
-			global::LocalNotifications.Resource.Dimension.notification_main_column_padding_top = global::LekomanApp.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::LocalNotifications.Resource.Dimension.notification_media_narrow_margin = global::LekomanApp.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::LocalNotifications.Resource.Dimension.notification_right_icon_size = global::LekomanApp.Droid.Resource.Dimension.notification_right_icon_size;
-			global::LocalNotifications.Resource.Dimension.notification_right_side_padding_top = global::LekomanApp.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::LocalNotifications.Resource.Dimension.notification_small_icon_background_padding = global::LekomanApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::LocalNotifications.Resource.Dimension.notification_small_icon_size_as_large = global::LekomanApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::LocalNotifications.Resource.Dimension.notification_subtext_size = global::LekomanApp.Droid.Resource.Dimension.notification_subtext_size;
-			global::LocalNotifications.Resource.Dimension.notification_top_pad = global::LekomanApp.Droid.Resource.Dimension.notification_top_pad;
-			global::LocalNotifications.Resource.Dimension.notification_top_pad_large_text = global::LekomanApp.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::LocalNotifications.Resource.Drawable.common_full_open_on_phone = global::LekomanApp.Droid.Resource.Drawable.common_full_open_on_phone;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_dark = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_dark;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_dark_focused = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_focused;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_dark_normal = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_disabled = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_disabled;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_light = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_light;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_light_focused = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_light_focused;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_light_normal = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_icon_light_normal_background = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal_background;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_dark = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_dark;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_dark_focused = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_dark_focused;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_dark_normal = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_dark_normal_background = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal_background;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_disabled = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_disabled;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_light = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_light;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_light_focused = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_light_focused;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_light_normal = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal;
-			global::LocalNotifications.Resource.Drawable.common_google_signin_btn_text_light_normal_background = global::LekomanApp.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal_background;
-			global::LocalNotifications.Resource.Drawable.googleg_disabled_color_18 = global::LekomanApp.Droid.Resource.Drawable.googleg_disabled_color_18;
-			global::LocalNotifications.Resource.Drawable.googleg_standard_color_18 = global::LekomanApp.Droid.Resource.Drawable.googleg_standard_color_18;
-			global::LocalNotifications.Resource.Drawable.notification_action_background = global::LekomanApp.Droid.Resource.Drawable.notification_action_background;
-			global::LocalNotifications.Resource.Drawable.notification_bg = global::LekomanApp.Droid.Resource.Drawable.notification_bg;
-			global::LocalNotifications.Resource.Drawable.notification_bg_low = global::LekomanApp.Droid.Resource.Drawable.notification_bg_low;
-			global::LocalNotifications.Resource.Drawable.notification_bg_low_normal = global::LekomanApp.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::LocalNotifications.Resource.Drawable.notification_bg_low_pressed = global::LekomanApp.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::LocalNotifications.Resource.Drawable.notification_bg_normal = global::LekomanApp.Droid.Resource.Drawable.notification_bg_normal;
-			global::LocalNotifications.Resource.Drawable.notification_bg_normal_pressed = global::LekomanApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::LocalNotifications.Resource.Drawable.notification_icon_background = global::LekomanApp.Droid.Resource.Drawable.notification_icon_background;
-			global::LocalNotifications.Resource.Drawable.notification_template_icon_bg = global::LekomanApp.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::LocalNotifications.Resource.Drawable.notification_template_icon_low_bg = global::LekomanApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::LocalNotifications.Resource.Drawable.notification_tile_bg = global::LekomanApp.Droid.Resource.Drawable.notification_tile_bg;
-			global::LocalNotifications.Resource.Drawable.notify_panel_notification_icon_bg = global::LekomanApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::LocalNotifications.Resource.Id.accessibility_action_clickable_span = global::LekomanApp.Droid.Resource.Id.accessibility_action_clickable_span;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_0 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_0;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_1 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_1;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_10 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_10;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_11 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_11;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_12 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_12;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_13 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_13;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_14 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_14;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_15 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_15;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_16 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_16;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_17 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_17;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_18 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_18;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_19 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_19;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_2 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_2;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_20 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_20;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_21 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_21;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_22 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_22;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_23 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_23;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_24 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_24;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_25 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_25;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_26 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_26;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_27 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_27;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_28 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_28;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_29 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_29;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_3 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_3;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_30 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_30;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_31 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_31;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_4 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_4;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_5 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_5;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_6 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_6;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_7 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_7;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_8 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_8;
-			global::LocalNotifications.Resource.Id.accessibility_custom_action_9 = global::LekomanApp.Droid.Resource.Id.accessibility_custom_action_9;
-			global::LocalNotifications.Resource.Id.actions = global::LekomanApp.Droid.Resource.Id.actions;
-			global::LocalNotifications.Resource.Id.action_container = global::LekomanApp.Droid.Resource.Id.action_container;
-			global::LocalNotifications.Resource.Id.action_divider = global::LekomanApp.Droid.Resource.Id.action_divider;
-			global::LocalNotifications.Resource.Id.action_image = global::LekomanApp.Droid.Resource.Id.action_image;
-			global::LocalNotifications.Resource.Id.action_text = global::LekomanApp.Droid.Resource.Id.action_text;
-			global::LocalNotifications.Resource.Id.adjust_height = global::LekomanApp.Droid.Resource.Id.adjust_height;
-			global::LocalNotifications.Resource.Id.adjust_width = global::LekomanApp.Droid.Resource.Id.adjust_width;
-			global::LocalNotifications.Resource.Id.async = global::LekomanApp.Droid.Resource.Id.async;
-			global::LocalNotifications.Resource.Id.auto = global::LekomanApp.Droid.Resource.Id.auto;
-			global::LocalNotifications.Resource.Id.blocking = global::LekomanApp.Droid.Resource.Id.blocking;
-			global::LocalNotifications.Resource.Id.chronometer = global::LekomanApp.Droid.Resource.Id.chronometer;
-			global::LocalNotifications.Resource.Id.dark = global::LekomanApp.Droid.Resource.Id.dark;
-			global::LocalNotifications.Resource.Id.dialog_button = global::LekomanApp.Droid.Resource.Id.dialog_button;
-			global::LocalNotifications.Resource.Id.forever = global::LekomanApp.Droid.Resource.Id.forever;
-			global::LocalNotifications.Resource.Id.fragment_container_view_tag = global::LekomanApp.Droid.Resource.Id.fragment_container_view_tag;
-			global::LocalNotifications.Resource.Id.icon = global::LekomanApp.Droid.Resource.Id.icon;
-			global::LocalNotifications.Resource.Id.icon_group = global::LekomanApp.Droid.Resource.Id.icon_group;
-			global::LocalNotifications.Resource.Id.icon_only = global::LekomanApp.Droid.Resource.Id.icon_only;
-			global::LocalNotifications.Resource.Id.info = global::LekomanApp.Droid.Resource.Id.info;
-			global::LocalNotifications.Resource.Id.italic = global::LekomanApp.Droid.Resource.Id.italic;
-			global::LocalNotifications.Resource.Id.light = global::LekomanApp.Droid.Resource.Id.light;
-			global::LocalNotifications.Resource.Id.line1 = global::LekomanApp.Droid.Resource.Id.line1;
-			global::LocalNotifications.Resource.Id.line3 = global::LekomanApp.Droid.Resource.Id.line3;
-			global::LocalNotifications.Resource.Id.none = global::LekomanApp.Droid.Resource.Id.none;
-			global::LocalNotifications.Resource.Id.normal = global::LekomanApp.Droid.Resource.Id.normal;
-			global::LocalNotifications.Resource.Id.notification_background = global::LekomanApp.Droid.Resource.Id.notification_background;
-			global::LocalNotifications.Resource.Id.notification_main_column = global::LekomanApp.Droid.Resource.Id.notification_main_column;
-			global::LocalNotifications.Resource.Id.notification_main_column_container = global::LekomanApp.Droid.Resource.Id.notification_main_column_container;
-			global::LocalNotifications.Resource.Id.right_icon = global::LekomanApp.Droid.Resource.Id.right_icon;
-			global::LocalNotifications.Resource.Id.right_side = global::LekomanApp.Droid.Resource.Id.right_side;
-			global::LocalNotifications.Resource.Id.special_effects_controller_view_tag = global::LekomanApp.Droid.Resource.Id.special_effects_controller_view_tag;
-			global::LocalNotifications.Resource.Id.standard = global::LekomanApp.Droid.Resource.Id.standard;
-			global::LocalNotifications.Resource.Id.tag_accessibility_actions = global::LekomanApp.Droid.Resource.Id.tag_accessibility_actions;
-			global::LocalNotifications.Resource.Id.tag_accessibility_clickable_spans = global::LekomanApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
-			global::LocalNotifications.Resource.Id.tag_accessibility_heading = global::LekomanApp.Droid.Resource.Id.tag_accessibility_heading;
-			global::LocalNotifications.Resource.Id.tag_accessibility_pane_title = global::LekomanApp.Droid.Resource.Id.tag_accessibility_pane_title;
-			global::LocalNotifications.Resource.Id.tag_on_apply_window_listener = global::LekomanApp.Droid.Resource.Id.tag_on_apply_window_listener;
-			global::LocalNotifications.Resource.Id.tag_on_receive_content_listener = global::LekomanApp.Droid.Resource.Id.tag_on_receive_content_listener;
-			global::LocalNotifications.Resource.Id.tag_on_receive_content_mime_types = global::LekomanApp.Droid.Resource.Id.tag_on_receive_content_mime_types;
-			global::LocalNotifications.Resource.Id.tag_screen_reader_focusable = global::LekomanApp.Droid.Resource.Id.tag_screen_reader_focusable;
-			global::LocalNotifications.Resource.Id.tag_state_description = global::LekomanApp.Droid.Resource.Id.tag_state_description;
-			global::LocalNotifications.Resource.Id.tag_transition_group = global::LekomanApp.Droid.Resource.Id.tag_transition_group;
-			global::LocalNotifications.Resource.Id.tag_unhandled_key_event_manager = global::LekomanApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::LocalNotifications.Resource.Id.tag_unhandled_key_listeners = global::LekomanApp.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::LocalNotifications.Resource.Id.tag_window_insets_animation_callback = global::LekomanApp.Droid.Resource.Id.tag_window_insets_animation_callback;
-			global::LocalNotifications.Resource.Id.text = global::LekomanApp.Droid.Resource.Id.text;
-			global::LocalNotifications.Resource.Id.text2 = global::LekomanApp.Droid.Resource.Id.text2;
-			global::LocalNotifications.Resource.Id.time = global::LekomanApp.Droid.Resource.Id.time;
-			global::LocalNotifications.Resource.Id.title = global::LekomanApp.Droid.Resource.Id.title;
-			global::LocalNotifications.Resource.Id.view_tree_lifecycle_owner = global::LekomanApp.Droid.Resource.Id.view_tree_lifecycle_owner;
-			global::LocalNotifications.Resource.Id.view_tree_saved_state_registry_owner = global::LekomanApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
-			global::LocalNotifications.Resource.Id.view_tree_view_model_store_owner = global::LekomanApp.Droid.Resource.Id.view_tree_view_model_store_owner;
-			global::LocalNotifications.Resource.Id.visible_removing_fragment_view_tag = global::LekomanApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
-			global::LocalNotifications.Resource.Id.wide = global::LekomanApp.Droid.Resource.Id.wide;
-			global::LocalNotifications.Resource.Integer.google_play_services_version = global::LekomanApp.Droid.Resource.Integer.google_play_services_version;
-			global::LocalNotifications.Resource.Integer.status_bar_notification_info_maxnum = global::LekomanApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::LocalNotifications.Resource.Layout.custom_dialog = global::LekomanApp.Droid.Resource.Layout.custom_dialog;
-			global::LocalNotifications.Resource.Layout.notification_action = global::LekomanApp.Droid.Resource.Layout.notification_action;
-			global::LocalNotifications.Resource.Layout.notification_action_tombstone = global::LekomanApp.Droid.Resource.Layout.notification_action_tombstone;
-			global::LocalNotifications.Resource.Layout.notification_template_custom_big = global::LekomanApp.Droid.Resource.Layout.notification_template_custom_big;
-			global::LocalNotifications.Resource.Layout.notification_template_icon_group = global::LekomanApp.Droid.Resource.Layout.notification_template_icon_group;
-			global::LocalNotifications.Resource.Layout.notification_template_part_chronometer = global::LekomanApp.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::LocalNotifications.Resource.Layout.notification_template_part_time = global::LekomanApp.Droid.Resource.Layout.notification_template_part_time;
-			global::LocalNotifications.Resource.String.common_google_play_services_enable_button = global::LekomanApp.Droid.Resource.String.common_google_play_services_enable_button;
-			global::LocalNotifications.Resource.String.common_google_play_services_enable_text = global::LekomanApp.Droid.Resource.String.common_google_play_services_enable_text;
-			global::LocalNotifications.Resource.String.common_google_play_services_enable_title = global::LekomanApp.Droid.Resource.String.common_google_play_services_enable_title;
-			global::LocalNotifications.Resource.String.common_google_play_services_install_button = global::LekomanApp.Droid.Resource.String.common_google_play_services_install_button;
-			global::LocalNotifications.Resource.String.common_google_play_services_install_text = global::LekomanApp.Droid.Resource.String.common_google_play_services_install_text;
-			global::LocalNotifications.Resource.String.common_google_play_services_install_title = global::LekomanApp.Droid.Resource.String.common_google_play_services_install_title;
-			global::LocalNotifications.Resource.String.common_google_play_services_notification_channel_name = global::LekomanApp.Droid.Resource.String.common_google_play_services_notification_channel_name;
-			global::LocalNotifications.Resource.String.common_google_play_services_notification_ticker = global::LekomanApp.Droid.Resource.String.common_google_play_services_notification_ticker;
-			global::LocalNotifications.Resource.String.common_google_play_services_unknown_issue = global::LekomanApp.Droid.Resource.String.common_google_play_services_unknown_issue;
-			global::LocalNotifications.Resource.String.common_google_play_services_unsupported_text = global::LekomanApp.Droid.Resource.String.common_google_play_services_unsupported_text;
-			global::LocalNotifications.Resource.String.common_google_play_services_update_button = global::LekomanApp.Droid.Resource.String.common_google_play_services_update_button;
-			global::LocalNotifications.Resource.String.common_google_play_services_update_text = global::LekomanApp.Droid.Resource.String.common_google_play_services_update_text;
-			global::LocalNotifications.Resource.String.common_google_play_services_update_title = global::LekomanApp.Droid.Resource.String.common_google_play_services_update_title;
-			global::LocalNotifications.Resource.String.common_google_play_services_updating_text = global::LekomanApp.Droid.Resource.String.common_google_play_services_updating_text;
-			global::LocalNotifications.Resource.String.common_google_play_services_wear_update_text = global::LekomanApp.Droid.Resource.String.common_google_play_services_wear_update_text;
-			global::LocalNotifications.Resource.String.common_open_on_phone = global::LekomanApp.Droid.Resource.String.common_open_on_phone;
-			global::LocalNotifications.Resource.String.common_signin_button_text = global::LekomanApp.Droid.Resource.String.common_signin_button_text;
-			global::LocalNotifications.Resource.String.common_signin_button_text_long = global::LekomanApp.Droid.Resource.String.common_signin_button_text_long;
-			global::LocalNotifications.Resource.String.fcm_fallback_notification_channel_label = global::LekomanApp.Droid.Resource.String.fcm_fallback_notification_channel_label;
-			global::LocalNotifications.Resource.String.status_bar_notification_info_overflow = global::LekomanApp.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::LocalNotifications.Resource.Style.TextAppearance_Compat_Notification = global::LekomanApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::LocalNotifications.Resource.Style.TextAppearance_Compat_Notification_Info = global::LekomanApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::LocalNotifications.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LekomanApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::LocalNotifications.Resource.Style.TextAppearance_Compat_Notification_Time = global::LekomanApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::LocalNotifications.Resource.Style.TextAppearance_Compat_Notification_Title = global::LekomanApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::LocalNotifications.Resource.Style.Widget_Compat_NotificationActionContainer = global::LekomanApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::LocalNotifications.Resource.Style.Widget_Compat_NotificationActionText = global::LekomanApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::LocalNotifications.Resource.Styleable.Capability = global::LekomanApp.Droid.Resource.Styleable.Capability;
-			global::LocalNotifications.Resource.Styleable.Capability_queryPatterns = global::LekomanApp.Droid.Resource.Styleable.Capability_queryPatterns;
-			global::LocalNotifications.Resource.Styleable.Capability_shortcutMatchRequired = global::LekomanApp.Droid.Resource.Styleable.Capability_shortcutMatchRequired;
-			global::LocalNotifications.Resource.Styleable.ColorStateListItem = global::LekomanApp.Droid.Resource.Styleable.ColorStateListItem;
-			global::LocalNotifications.Resource.Styleable.ColorStateListItem_alpha = global::LekomanApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::LocalNotifications.Resource.Styleable.ColorStateListItem_android_alpha = global::LekomanApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::LocalNotifications.Resource.Styleable.ColorStateListItem_android_color = global::LekomanApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::LocalNotifications.Resource.Styleable.FontFamily = global::LekomanApp.Droid.Resource.Styleable.FontFamily;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_android_font = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_font = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_fontStyle = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_fontWeight = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::LocalNotifications.Resource.Styleable.FontFamilyFont_ttcIndex = global::LekomanApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::LocalNotifications.Resource.Styleable.FontFamily_fontProviderAuthority = global::LekomanApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::LocalNotifications.Resource.Styleable.FontFamily_fontProviderCerts = global::LekomanApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::LocalNotifications.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LekomanApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::LocalNotifications.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LekomanApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::LocalNotifications.Resource.Styleable.FontFamily_fontProviderPackage = global::LekomanApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::LocalNotifications.Resource.Styleable.FontFamily_fontProviderQuery = global::LekomanApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::LocalNotifications.Resource.Styleable.FontFamily_fontProviderSystemFontFamily = global::LekomanApp.Droid.Resource.Styleable.FontFamily_fontProviderSystemFontFamily;
-			global::LocalNotifications.Resource.Styleable.Fragment = global::LekomanApp.Droid.Resource.Styleable.Fragment;
-			global::LocalNotifications.Resource.Styleable.FragmentContainerView = global::LekomanApp.Droid.Resource.Styleable.FragmentContainerView;
-			global::LocalNotifications.Resource.Styleable.FragmentContainerView_android_name = global::LekomanApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
-			global::LocalNotifications.Resource.Styleable.FragmentContainerView_android_tag = global::LekomanApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
-			global::LocalNotifications.Resource.Styleable.Fragment_android_id = global::LekomanApp.Droid.Resource.Styleable.Fragment_android_id;
-			global::LocalNotifications.Resource.Styleable.Fragment_android_name = global::LekomanApp.Droid.Resource.Styleable.Fragment_android_name;
-			global::LocalNotifications.Resource.Styleable.Fragment_android_tag = global::LekomanApp.Droid.Resource.Styleable.Fragment_android_tag;
-			global::LocalNotifications.Resource.Styleable.GradientColor = global::LekomanApp.Droid.Resource.Styleable.GradientColor;
-			global::LocalNotifications.Resource.Styleable.GradientColorItem = global::LekomanApp.Droid.Resource.Styleable.GradientColorItem;
-			global::LocalNotifications.Resource.Styleable.GradientColorItem_android_color = global::LekomanApp.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::LocalNotifications.Resource.Styleable.GradientColorItem_android_offset = global::LekomanApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_centerColor = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_centerX = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_centerY = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_endColor = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_endX = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_endY = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_gradientRadius = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_startColor = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_startX = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_startY = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_tileMode = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::LocalNotifications.Resource.Styleable.GradientColor_android_type = global::LekomanApp.Droid.Resource.Styleable.GradientColor_android_type;
-			global::LocalNotifications.Resource.Styleable.LoadingImageView = global::LekomanApp.Droid.Resource.Styleable.LoadingImageView;
-			global::LocalNotifications.Resource.Styleable.LoadingImageView_circleCrop = global::LekomanApp.Droid.Resource.Styleable.LoadingImageView_circleCrop;
-			global::LocalNotifications.Resource.Styleable.LoadingImageView_imageAspectRatio = global::LekomanApp.Droid.Resource.Styleable.LoadingImageView_imageAspectRatio;
-			global::LocalNotifications.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::LekomanApp.Droid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
-			global::LocalNotifications.Resource.Styleable.SignInButton = global::LekomanApp.Droid.Resource.Styleable.SignInButton;
-			global::LocalNotifications.Resource.Styleable.SignInButton_buttonSize = global::LekomanApp.Droid.Resource.Styleable.SignInButton_buttonSize;
-			global::LocalNotifications.Resource.Styleable.SignInButton_colorScheme = global::LekomanApp.Droid.Resource.Styleable.SignInButton_colorScheme;
-			global::LocalNotifications.Resource.Styleable.SignInButton_scopeUris = global::LekomanApp.Droid.Resource.Styleable.SignInButton_scopeUris;
 			global::Plugin.LocalNotification.Resource.Animation.fragment_fast_out_extra_slow_in = global::LekomanApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
 			global::Plugin.LocalNotification.Resource.Animator.fragment_close_enter = global::LekomanApp.Droid.Resource.Animator.fragment_close_enter;
 			global::Plugin.LocalNotification.Resource.Animator.fragment_close_exit = global::LekomanApp.Droid.Resource.Animator.fragment_close_exit;
@@ -585,6 +306,7 @@ namespace LekomanApp.Droid
 			global::Plugin.LocalNotification.Resource.Styleable.SignInButton_buttonSize = global::LekomanApp.Droid.Resource.Styleable.SignInButton_buttonSize;
 			global::Plugin.LocalNotification.Resource.Styleable.SignInButton_colorScheme = global::LekomanApp.Droid.Resource.Styleable.SignInButton_colorScheme;
 			global::Plugin.LocalNotification.Resource.Styleable.SignInButton_scopeUris = global::LekomanApp.Droid.Resource.Styleable.SignInButton_scopeUris;
+			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::LekomanApp.Droid.Resource.Drawable.plugin_lc_smallicon;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::LekomanApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::LekomanApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::LekomanApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -17335,19 +17057,22 @@ namespace LekomanApp.Droid
 			public const int notify_panel_notification_icon_bg = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int plus = 2131165347;
+			public const int plugin_lc_smallicon = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int preference_list_divider_material = 2131165348;
+			public const int plus = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int test_custom_background = 2131165349;
+			public const int preference_list_divider_material = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int tooltip_frame_dark = 2131165350;
+			public const int test_custom_background = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int tooltip_frame_light = 2131165351;
+			public const int tooltip_frame_dark = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int tooltip_frame_light = 2131165352;
 			
 			static Drawable()
 			{
@@ -19715,226 +19440,223 @@ namespace LekomanApp.Droid
 			public const int fallback_menu_item_share_link = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int fcm_fallback_notification_channel_label = 2131623999;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int hide_bottom_view_on_scroll_behavior = 2131624000;
+			public const int icon_content_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int icon_content_description = 2131624001;
+			public const int item_view_role_description = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int item_view_role_description = 2131624002;
+			public const int material_clock_display_divider = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_clock_display_divider = 2131624003;
+			public const int material_clock_toggle_content_description = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int material_clock_toggle_content_description = 2131624004;
+			public const int material_hour_selection = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int material_hour_selection = 2131624005;
+			public const int material_hour_suffix = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int material_hour_suffix = 2131624006;
+			public const int material_minute_selection = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int material_minute_selection = 2131624007;
+			public const int material_minute_suffix = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int material_minute_suffix = 2131624008;
+			public const int material_motion_easing_accelerated = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int material_motion_easing_accelerated = 2131624009;
+			public const int material_motion_easing_decelerated = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int material_motion_easing_decelerated = 2131624010;
+			public const int material_motion_easing_emphasized = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int material_motion_easing_emphasized = 2131624011;
+			public const int material_motion_easing_linear = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int material_motion_easing_linear = 2131624012;
+			public const int material_motion_easing_standard = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int material_motion_easing_standard = 2131624013;
+			public const int material_slider_range_end = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int material_slider_range_end = 2131624014;
+			public const int material_slider_range_start = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int material_slider_range_start = 2131624015;
+			public const int material_timepicker_am = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int material_timepicker_am = 2131624016;
+			public const int material_timepicker_clock_mode_description = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int material_timepicker_clock_mode_description = 2131624017;
+			public const int material_timepicker_hour = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int material_timepicker_hour = 2131624018;
+			public const int material_timepicker_minute = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int material_timepicker_minute = 2131624019;
+			public const int material_timepicker_pm = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int material_timepicker_pm = 2131624020;
+			public const int material_timepicker_select_time = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int material_timepicker_select_time = 2131624021;
+			public const int material_timepicker_text_input_mode_description = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int material_timepicker_text_input_mode_description = 2131624022;
+			public const int mtrl_badge_numberless_content_description = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_badge_numberless_content_description = 2131624023;
+			public const int mtrl_chip_close_icon_content_description = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_chip_close_icon_content_description = 2131624024;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624025;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624026;
+			public const int mtrl_picker_a11y_next_month = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_a11y_next_month = 2131624027;
+			public const int mtrl_picker_a11y_prev_month = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_a11y_prev_month = 2131624028;
+			public const int mtrl_picker_announce_current_selection = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_announce_current_selection = 2131624029;
+			public const int mtrl_picker_cancel = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_cancel = 2131624030;
+			public const int mtrl_picker_confirm = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_confirm = 2131624031;
+			public const int mtrl_picker_date_header_selected = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_date_header_selected = 2131624032;
+			public const int mtrl_picker_date_header_title = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_date_header_title = 2131624033;
+			public const int mtrl_picker_date_header_unselected = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_date_header_unselected = 2131624034;
+			public const int mtrl_picker_day_of_week_column_header = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_day_of_week_column_header = 2131624035;
+			public const int mtrl_picker_invalid_format = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_invalid_format = 2131624036;
+			public const int mtrl_picker_invalid_format_example = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_invalid_format_example = 2131624037;
+			public const int mtrl_picker_invalid_format_use = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_invalid_format_use = 2131624038;
+			public const int mtrl_picker_invalid_range = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int mtrl_picker_invalid_range = 2131624039;
+			public const int mtrl_picker_navigate_to_year_description = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int mtrl_picker_navigate_to_year_description = 2131624040;
+			public const int mtrl_picker_out_of_range = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int mtrl_picker_out_of_range = 2131624041;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int mtrl_picker_range_header_only_end_selected = 2131624042;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int mtrl_picker_range_header_only_start_selected = 2131624043;
+			public const int mtrl_picker_range_header_selected = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int mtrl_picker_range_header_selected = 2131624044;
+			public const int mtrl_picker_range_header_title = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int mtrl_picker_range_header_title = 2131624045;
+			public const int mtrl_picker_range_header_unselected = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int mtrl_picker_range_header_unselected = 2131624046;
+			public const int mtrl_picker_save = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int mtrl_picker_save = 2131624047;
+			public const int mtrl_picker_text_input_date_hint = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int mtrl_picker_text_input_date_hint = 2131624048;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624049;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624050;
+			public const int mtrl_picker_text_input_day_abbr = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int mtrl_picker_text_input_day_abbr = 2131624051;
+			public const int mtrl_picker_text_input_month_abbr = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int mtrl_picker_text_input_month_abbr = 2131624052;
+			public const int mtrl_picker_text_input_year_abbr = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int mtrl_picker_text_input_year_abbr = 2131624053;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624054;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624054;
 			
 			// aapt resource value: 0x7F0E0077
-			public const int mtrl_picker_toggle_to_day_selection = 2131624055;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624055;
 			
 			// aapt resource value: 0x7F0E0078
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624056;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624056;
 			
 			// aapt resource value: 0x7F0E0079
-			public const int mtrl_picker_toggle_to_year_selection = 2131624057;
+			public const int nav_app_bar_navigate_up_description = 2131624057;
 			
 			// aapt resource value: 0x7F0E007A
-			public const int nav_app_bar_navigate_up_description = 2131624058;
+			public const int nav_app_bar_open_drawer_description = 2131624058;
 			
 			// aapt resource value: 0x7F0E007B
-			public const int nav_app_bar_open_drawer_description = 2131624059;
+			public const int not_set = 2131624059;
 			
 			// aapt resource value: 0x7F0E007C
-			public const int not_set = 2131624060;
+			public const int overflow_tab_title = 2131624060;
 			
 			// aapt resource value: 0x7F0E007D
-			public const int overflow_tab_title = 2131624061;
+			public const int password_toggle_content_description = 2131624061;
 			
 			// aapt resource value: 0x7F0E007E
-			public const int password_toggle_content_description = 2131624062;
+			public const int path_password_eye = 2131624062;
 			
 			// aapt resource value: 0x7F0E007F
-			public const int path_password_eye = 2131624063;
+			public const int path_password_eye_mask_strike_through = 2131624063;
 			
 			// aapt resource value: 0x7F0E0080
-			public const int path_password_eye_mask_strike_through = 2131624064;
+			public const int path_password_eye_mask_visible = 2131624064;
 			
 			// aapt resource value: 0x7F0E0081
-			public const int path_password_eye_mask_visible = 2131624065;
+			public const int path_password_strike_through = 2131624065;
 			
 			// aapt resource value: 0x7F0E0082
-			public const int path_password_strike_through = 2131624066;
+			public const int preference_copied = 2131624066;
 			
 			// aapt resource value: 0x7F0E0083
-			public const int preference_copied = 2131624067;
+			public const int search_menu_title = 2131624067;
 			
 			// aapt resource value: 0x7F0E0084
-			public const int search_menu_title = 2131624068;
+			public const int status_bar_notification_info_overflow = 2131624068;
 			
 			// aapt resource value: 0x7F0E0085
-			public const int status_bar_notification_info_overflow = 2131624069;
+			public const int summary_collapsed_preference_list = 2131624069;
 			
 			// aapt resource value: 0x7F0E0086
-			public const int summary_collapsed_preference_list = 2131624070;
+			public const int v7_preference_off = 2131624070;
 			
 			// aapt resource value: 0x7F0E0087
-			public const int v7_preference_off = 2131624071;
-			
-			// aapt resource value: 0x7F0E0088
-			public const int v7_preference_on = 2131624072;
+			public const int v7_preference_on = 2131624071;
 			
 			static String()
 			{

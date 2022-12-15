@@ -6,9 +6,6 @@
              BackgroundColor="#91a6bf"
              >
     <ContentPage.ToolbarItems>
-
-
-
         <ToolbarItem Clicked="OnItemAdded" Text="+">
             
             <ToolbarItem.IconImageSource>
@@ -21,33 +18,33 @@
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
-   
+
 
     <ListView
         x:Name="listView"
         Margin="5"
         ItemSelected="OnListItemSelected"
         HasUnevenRows="True">
-        
+
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
 
-                    
+
                     <StackLayout>
-                            <StackLayout
+                        <StackLayout
                                 
                                 
                                  HorizontalOptions="FillAndExpand"
                                    Orientation="Horizontal"
                                  VerticalOptions="CenterAndExpand">
-                                                     
-                                <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
-                                <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Lek}" />
 
-                                <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Dawka: " />
-                                <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
-                            </StackLayout>
+                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
+                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Lek}" />
+
+                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Dawka: " />
+                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
+                        </StackLayout>
 
 
 
@@ -75,12 +72,12 @@
                             Source="check1.png" 
                             WidthRequest="20"
                             />
-                            
+
                         </StackLayout>
-                        
+
                     </StackLayout>
 
-                    
+
 
 
 
@@ -90,7 +87,5 @@
 
         </ListView.ItemTemplate>
     </ListView>
-
-   
 
 </ContentPage>
