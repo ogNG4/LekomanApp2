@@ -9,7 +9,7 @@ namespace LekomanApp
 {
     public static class Constants
     {
-        public const string DatabaseFilename = "TodoSQLite.db3";
+        public const string DatabaseFilename = "Lekoman1SQLite.db3";
 
         public const SQLite.SQLiteOpenFlags Flags =
             SQLite.SQLiteOpenFlags.ReadWrite |

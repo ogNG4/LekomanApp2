@@ -18,11 +18,11 @@
             <Label Text="Dawka" />
             <Entry Text="{Binding Dawka}" />
 
-            <Label Text="Data" />
+            <Label Text="Data zażycia:" />
             <DatePicker Date="{Binding Data}" 
                         MinimumDate="2022/12/14"/>
 
-            <Label Text="Godzina" />
+            <Label Text="Godzina zażycia:" />
             <TimePicker Time="{Binding Godzina}" />
 
 

@@ -13,11 +13,6 @@ using Xamarin.Forms;
 
 using Plugin.LocalNotifications;
 
-
-
-
-
-
 namespace LekomanApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -35,13 +30,13 @@ namespace LekomanApp.Views
 
             var lekomanItem = (LekomanItem)BindingContext;
 
+
             CrossLocalNotifications.Current.Show(
             "Przypomnienie!",
-             "Nie zapomnij o zażyciu: " + lekomanItem.Lek + " w dawce: " + lekomanItem.Dawka +"  za 10 minut", // tekst powiadomienia
+             "Nie zapomnij o zażyciu: " + lekomanItem.Lek + " w dawce: " + lekomanItem.Dawka + "  za 10 minut", // tekst powiadomienia
                 lekomanItem.ID, // identyfikator powiadomienia
              lekomanItem.Data.Add(lekomanItem.Godzina.Add(TimeSpan.FromMinutes(-10)))  // data i godzina 
             );
-
 
 
 
@@ -50,9 +45,6 @@ namespace LekomanApp.Views
             await Navigation.PopAsync();
 
         }
-
-       
-            
 
         async void OnDeleteClicked(object sender, EventArgs e)
         {

@@ -28,7 +28,7 @@ namespace LekomanApp.Views
                 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await this.DisplayAlert("Błąd", "Wprowadź poprawny adres email.", "OK");
+                    await this.DisplayAlert("Błąd", "Wprowadź poprawny adres email.(Brakuje znaku '@')", "OK");
                 });
 
                 
@@ -59,16 +59,6 @@ namespace LekomanApp.Views
                 
                 return;
             }
-
-            //...
-
-           
-
-           
-            // ...
-
-
-
 
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "UserDatabase.db");
             var db = new SQLiteConnection(dbpath);

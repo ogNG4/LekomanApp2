@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LekomanApp.Views.LekomanListPage"
              Title="Dodaj swoje leki!"
-             BackgroundColor="#91a6bf"
+             BackgroundColor="#dae0eb"
+             
              >
     <ContentPage.ToolbarItems>
         <ToolbarItem Clicked="OnItemAdded" Text="+">
@@ -22,50 +23,58 @@
 
     <ListView
         x:Name="listView"
-        Margin="5"
+        
         ItemSelected="OnListItemSelected"
-        HasUnevenRows="True">
+        HasUnevenRows="True"
+         SeparatorColor="black"
+         SeparatorVisibility="Default"
+         >
 
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
 
+                    <Frame>
+                        <Frame.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#dae0eb" Offset="0" />
+                                <GradientStop Color="#a8adb5" Offset="1" />
+                            </LinearGradientBrush>
+                        </Frame.Background>
 
-                    <StackLayout>
-                        <StackLayout
-                                
+
+                        <StackLayout>
+                            <StackLayout
+                                Padding="0,10,0,0"
+                                Margin="0,0,0,10"
                                 
                                  HorizontalOptions="FillAndExpand"
                                    Orientation="Horizontal"
                                  VerticalOptions="CenterAndExpand">
 
-                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Lek: " />
-                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Lek}" />
+                                <Label HorizontalOptions="Start" FontSize="20" TextColor="#3d83fc" Text="Lek: " />
+                                <Label HorizontalOptions="StartAndExpand" FontSize="20" TextColor="#2e5585" Text="{Binding Lek}" />
 
-                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Dawka: " />
-                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Dawka}" />
-                        </StackLayout>
-
-
+                                <Label HorizontalOptions="Start" FontSize="20" TextColor="#3d83fc" Text="Dawka: " />
+                                <Label HorizontalOptions="StartAndExpand" FontSize="20" TextColor="#292828" Text="{Binding Dawka}" />
+                            </StackLayout>
 
 
-                        <StackLayout
-                         
-                         
+                            <StackLayout                                           
                          HorizontalOptions="FillAndExpand"
                          Orientation="Horizontal"
                          VerticalOptions="StartAndExpand"
                          Padding="0,0,0,10"
                          
                           >
-                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Data: " />
-                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
+                                <Label HorizontalOptions="Start" FontSize="20"  TextColor="#3d83fc" Text="Data: " />
+                                <Label HorizontalOptions="StartAndExpand" FontSize="20" TextColor="#292828" Text="{Binding Data, StringFormat='{0:dddd, dd MMMM }'}" />
 
-                            <Label HorizontalOptions="Start" FontSize="15" TextColor="Black" Text="Godzina: " />
-                            <Label HorizontalOptions="StartAndExpand" FontSize="15" TextColor="DarkBlue" Text="{Binding Godzina}" />
+                                <Label HorizontalOptions="Start" FontSize="20" TextColor="#3d83fc" Text="Godzina: " />
+                                <Label HorizontalOptions="StartAndExpand" FontSize="20" TextColor="#292828" Text="{Binding Godzina}" />
 
 
-                            <Image
+                                <Image
                             HorizontalOptions="End"
                             
                             IsVisible="{Binding Zrobione}"
@@ -73,14 +82,9 @@
                             WidthRequest="20"
                             />
 
+                            </StackLayout>
                         </StackLayout>
-
-                    </StackLayout>
-
-
-
-
-
+                    </Frame>
                 </ViewCell>
 
             </DataTemplate>
